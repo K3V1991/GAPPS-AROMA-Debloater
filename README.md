@@ -1,6 +1,5 @@
 ## NFO:
 * Ladies & Gentlemen i introducing my GAPPS AROMA Debloater aka G-Killer
-* Be aware that neither I nor XDA can be held responsible if you soft-brick your Phone by using this Software.
 * Make Backups before use
 
 
@@ -8,9 +7,6 @@
 * TWRP
 * G-Killer.zip
 * Clearing the Cache & Dalvik-cache is recommended
-
-
-
 
 
 ## Google Core List:
