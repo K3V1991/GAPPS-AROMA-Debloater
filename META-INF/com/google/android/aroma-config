@@ -1,0 +1,103 @@
+ini_set("force_colorspace","rgba");
+fontresload("0", "ttf/Roboto-Regular.ttf", "13");
+fontresload("1", "ttf/Roboto-Regular.ttf", "20");
+theme("g6");
+
+ini_set("rom_version", "G-Killer Extreme");
+
+
+ini_set("text_ok", "Ok");
+ini_set("text_next", "next");
+ini_set("text_back", "back");
+ini_set("text_yes", "Yes");
+ini_set("text_no", "No");
+ini_set("text_quit", "Installation abort");
+ini_set("text_quit_msg", "Exit Installer?");
+
+
+viewbox(
+"G-Killer Extreme",
+"\n"+
+"Version\t: <#7F00FF>"+ini_get("rom_version")+"</#>\n\n\n"+
+"NFO\t: <#FF0000> <b>Be aware that neither I nor XDA can be held responsible if you soft-brick your Phone by using this Software.</b></#>\n\n
+<b>Make Backups before use!!!
+After debloat delete the Cache & Dalvik Cache</b>",
+"icons/logo"
+);
+
+
+checkbox(
+"G-Killer Extreme",
+"All Services unchecked by Default",
+"icons/logo",
+"gg1.prop",
+
+"Google Core Services", "", 2,
+"Google Play Store", "", 0,
+"Google Play Services", "", 0,
+"Google Play Services for Instant Apps", "", 0,
+"Google Services Framework", "", 0,
+
+
+"", "", 2);
+
+checkbox(
+"G-Killer Extreme",
+"All Services unchecked by Default",
+"icons/logo",
+"gg2.prop",
+
+"Google Apps", "", 2,
+"Google Backup Transport", "", 0,
+"Google Calculator", "", 0,
+"Google Calendar Sync Adapter", "", 0,
+"Google Chrome", "", 0,
+"Google ConfigUpdater", "", 0,
+"Google Contacts Sync Adapter", "", 0,
+"Google Docs", "", 0,
+"Google Drive", "", 0,
+"Google Feedback", "", 0,
+"Google Gboard", "", 0,
+"Google Gmail", "", 0,
+"Google Google+", "", 0,
+"Google Hangouts", "", 0,
+"Google Login Service", "", 0,
+"Google Maps", "", 0,
+"Google OK Google Enrollment", "", 0,
+"Google One Time Initializer", "", 0,
+"Google Partner Setup", "", 0,
+"Google Photos", "", 0,
+"Google Play Books", "", 0,
+"Google Play Games", "", 0,
+"Google Play Music", "", 0,
+"Google Play Movies & TV", "", 0,
+"Google Print Recommendation Service", "", 0,
+"Google Search", "", 0,
+"Google Setup Wizard", "", 0,
+"Google Tag", "", 0,
+"Google TTS", "", 0,
+"Google TalkBack", "", 0,
+"Google YouTube", "", 0,
+
+
+"", "", 2);
+
+checkbox(
+"G-Killer Extreme",
+"Unchecked by Default",
+"icons/logo",
+"ot.prop",
+
+"Google Files", "", 2,
+"framework, lib & other Files", "", 0,
+
+
+"", "", 2);
+
+setvar("installer_title","All backuped & ready?");
+
+if confirm("G-Killer Extreme", getvar("installer_title") + "\n\nDebloating?", "@confirm")=="no" then back(1);
+endif;
+
+
+install("GKiller", "Services unistalling. Please wait...", "@debloat");
