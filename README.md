@@ -48,4 +48,5 @@
 * Google YouTube 
 
 
-## .jar, .txt, .so & .xml's
+## delete.sh:
+.jar, .txt, .so & .xml's
