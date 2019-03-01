@@ -49,4 +49,4 @@
 
 
 ## delete.sh:
-.jar, .txt, .so & .xml's
+* .jar, .txt, .so & .xml's
