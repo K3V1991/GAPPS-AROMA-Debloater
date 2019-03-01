@@ -1,3 +1,5 @@
+<img src="https://img.xda-cdn.com/WTPbfYUBZHukJa_wiItOSRO-FOk=/http%3A%2F%2Fwww.bilderload.com%2Fdaten%2FforumBF3Y0.png">
+
 ## NFO:
 * Ladies & Gentlemen i introducing my GAPPS AROMA Debloater (G-Killer)
 * Make Backups before use
