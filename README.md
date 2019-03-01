@@ -1,11 +1,10 @@
 ## NFO:
-* Ladies & Gentlemen i introducing my GAPPS AROMA Debloater aka G-Killer
+* Ladies & Gentlemen i introducing my GAPPS AROMA Debloater (G-Killer)
 * Make Backups before use
 
 
 ## Requirements:
 * TWRP
-* G-Killer.zip
 * Clearing the Cache & Dalvik-cache is recommended
 
 
