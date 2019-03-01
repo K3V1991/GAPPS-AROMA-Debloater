@@ -46,3 +46,6 @@
 * Google TTS
 * Google TalkBack
 * Google YouTube 
+
+
+## .jar, .txt, .so & .xml's
