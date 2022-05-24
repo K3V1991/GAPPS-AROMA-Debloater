@@ -1,21 +1,26 @@
-<img src="https://img.xda-cdn.com/WTPbfYUBZHukJa_wiItOSRO-FOk=/http%3A%2F%2Fwww.bilderload.com%2Fdaten%2FforumBF3Y0.png">
+<p align="center"><img src="https://i.ibb.co/xhkxWRS/G-Killer.png" width="200"></a>
+<h1 align="center"><b>Google Apps AROMA Debloater</b></h1>
+<h4 align="center">This flashable Zip removes Google Apps and other Files from your Device</h4>
+<br />
 
 ## NFO:
-* Ladies & Gentlemen i introducing my GAPPS AROMA Debloater (G-Killer)
-* Make Backups before use
+* Apps & other Files chooseable (AROMA Installer)
+* Deletes the App Folders completely
+* Deletes jar, prop, sh, so & xml's
 
+## Caution:
+* Some Devices can soft-brick when removing the framework, lib & other Files
+* Make Backups before use
 
 ## Requirements:
 * TWRP
 * Clearing the Cache & Dalvik-cache is recommended
-
 
 ## Google Core List:
 * Google Play Store
 * Google Play Services
 * Google Play Instant for Apps
 * Google Services Framework
-
 
 ## Google App List:
 * Google Backup Transport
@@ -47,8 +52,7 @@
 * Google Tag
 * Google TTS
 * Google TalkBack
-* Google YouTube 
-
+* Google YouTube
 
 ## delete.sh:
 * .jar, .txt, .so & .xml's
