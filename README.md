@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.ibb.co/xhkxWRS/G-Killer.png" width="200"></a>
+<p align="center"><img src="https://github.com/K3V1991/GAPPS-AROMA-Debloater/blob/master/G-Killer.png" width="200"></a>
 <h1 align="center"><b>Google Apps AROMA Debloater</b></h1>
 <h4 align="center">This flashable Zip removes Google Apps and other Files from your Device</h4>
 <br />
